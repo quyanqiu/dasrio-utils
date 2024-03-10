@@ -1,0 +1,27 @@
+{
+  "name": "dasrio-utils", 
+  "version": "1.0.0", 
+  "author": "dasrio", 
+  "description": "common toolkit", 
+  "keywords": ["utils", "format", "money", "phone"], 
+  "repository": {
+
+    "type": "git",
+    "url": "https://github.com/quyanqiu/dasrio-utils"
+  },
+  "license": "ISC", 
+  "homepage": "https://github.com/quyanqiu", 
+  "bugs": "https://github.com/quyanqiu/dasrio-utils", 
+  "main": "index.js", 
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "shell-oooooyoung":"^1.0.3"
+  },
+  "devDependencies": {
+     "shell-oooooyoung":"^1.0.3"
+  }
+}
+
