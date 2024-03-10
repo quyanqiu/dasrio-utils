@@ -1,8 +1,8 @@
 {
   "name": "dasrio-utils", 
-  "version": "1.0.0", 
+  "version": "1.0.1", 
   "author": "dasrio", 
-  "description": "common toolkit", 
+  "description": "dasrio-utils是一个通用的工具函数集合,提供了用于格式化和校验的各种实用函数.包括格式化金额,校验手机号,身份证号和邮箱等功能.方便开发者在项目中使用这些工具函数,提高开发效率,减少重复工作.", 
   "keywords": ["utils", "format", "money", "phone"], 
   "repository": {
 
@@ -18,10 +18,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-      "shell-oooooyoung":"^1.0.3"
+      "shell-oooooyoung":"^1.0.3",
+      "moment": "^2.29.1"
   },
   "devDependencies": {
-     "shell-oooooyoung":"^1.0.3"
+     "shell-oooooyoung":"^1.0.3",
+     "mocha": "^9.1.3",
+      "chai": "^4.3.4"
   }
 }
 
