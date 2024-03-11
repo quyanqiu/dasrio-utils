@@ -1,6 +1,6 @@
 {
   "name": "dasrio-utils",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "dasrio",
   "description": "dasrio-utils是一个通用的工具函数集合,提供了用于格式化和校验的各种实用函数.包括格式化金额,校验手机号,身份证号和邮箱等功能.方便开发者在项目中使用这些工具函数,提高开发效率,减少重复工作.",
   "keywords": [
@@ -21,6 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "lazyin-jsutil": "^1.0.4",
     "lodash": "^4.17.21",
     "moment": "^2.29.1"
   },
